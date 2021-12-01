@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/xtringHwang/codeceptjs-intro/issues"
   },
-  "homepage": "https://github.com/xtringHwang/codeceptjs-intro#readme"
+  "homepage": "https://github.com/xtringHwang/codeceptjs-intro#readme",
+  "devDependencies": {
+    "codeceptjs": "^3.2.2",
+    "puppeteer": "^12.0.1"
+  }
 }
