@@ -7,6 +7,11 @@ setHeadlessWhen(process.env.HEADLESS);
 exports.config = {
   tests: './*_test.js',
   output: './output',
+  multiple: {
+    basic: {
+      browers: ['chrome', 'firefox'],
+    }
+  },
   helpers: {
     Puppeteer: {
       url: 'http://executeautomation.com/demosite',
