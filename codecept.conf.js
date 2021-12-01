@@ -9,7 +9,7 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'http://executeautomation.com/demosite/Login.html',
+      url: 'http://executeautomation.com/demosite',
       show: true,
       windowSize: '1200x900'
     }
