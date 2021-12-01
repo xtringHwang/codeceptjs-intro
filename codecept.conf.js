@@ -9,6 +9,7 @@ exports.config = {
   output: './output',
   multiple: {
     basic: {
+      // $ npx codeceptjs run-multiple basic 명령어를 통해 다수의 브라우저를 동시에 테스트 가능하다
       browers: ['chrome', 'firefox'],
     }
   },
